@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9EFEECC5012E0DAEEC55C87C /* Pods_Qi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAE83A15CC4F107C02CF4133 /* Pods_Qi.framework */; };
+		B239D3C92484958500CDA29E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B239D3C82484958500CDA29E /* AppDelegate.m */; };
+		B239D3CC2484958500CDA29E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B239D3CB2484958500CDA29E /* SceneDelegate.m */; };
+		B239D3CF2484958500CDA29E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B239D3CE2484958500CDA29E /* ViewController.m */; };
+		B239D3D22484958500CDA29E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B239D3D02484958500CDA29E /* Main.storyboard */; };
+		B239D3D42484958700CDA29E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B239D3D32484958700CDA29E /* Assets.xcassets */; };
+		B239D3D72484958700CDA29E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B239D3D52484958700CDA29E /* LaunchScreen.storyboard */; };
+		B239D3DA2484958700CDA29E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B239D3D92484958700CDA29E /* main.m */; };
+		B239D44B248496C600CDA29E /* VoiceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B239D44A248496C600CDA29E /* VoiceCell.m */; };
+		B239D45D24849BB400CDA29E /* EMCDDeviceManager+Remind.m in Sources */ = {isa = PBXBuildFile; fileRef = B239D44E24849BB400CDA29E /* EMCDDeviceManager+Remind.m */; };
+		B239D45E24849BB400CDA29E /* EMCDDeviceManager+ProximitySensor.m in Sources */ = {isa = PBXBuildFile; fileRef = B239D44F24849BB400CDA29E /* EMCDDeviceManager+ProximitySensor.m */; };
+		B239D45F24849BB400CDA29E /* EMCDDeviceManager+Media.m in Sources */ = {isa = PBXBuildFile; fileRef = B239D45524849BB400CDA29E /* EMCDDeviceManager+Media.m */; };
+		B239D46024849BB400CDA29E /* EMCDDeviceManager+Microphone.m in Sources */ = {isa = PBXBuildFile; fileRef = B239D45824849BB400CDA29E /* EMCDDeviceManager+Microphone.m */; };
+		B239D46124849BB400CDA29E /* EMAudioRecorderUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B239D45924849BB400CDA29E /* EMAudioRecorderUtil.m */; };
+		B239D46224849BB400CDA29E /* EMAudioPlayerUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B239D45A24849BB400CDA29E /* EMAudioPlayerUtil.m */; };
+		B239D46324849BB400CDA29E /* EMCDDeviceManagerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = B239D45B24849BB400CDA29E /* EMCDDeviceManagerBase.m */; };
+		B239D46724849F3D00CDA29E /* voices.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B239D46624849F3D00CDA29E /* voices.bundle */; };
+		B239D46C24850E7100CDA29E /* VoiceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B239D46B24850E7100CDA29E /* VoiceModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03C4E1664DFDCE5601C3750C /* Pods-Qi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qi.release.xcconfig"; path = "Target Support Files/Pods-Qi/Pods-Qi.release.xcconfig"; sourceTree = "<group>"; };
+		5E710296C8007DED33935DEF /* Pods-Qi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qi.debug.xcconfig"; path = "Target Support Files/Pods-Qi/Pods-Qi.debug.xcconfig"; sourceTree = "<group>"; };
+		B239D3C42484958500CDA29E /* SinnSingHoi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SinnSingHoi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B239D3C72484958500CDA29E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B239D3C82484958500CDA29E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B239D3CA2484958500CDA29E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		B239D3CB2484958500CDA29E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		B239D3CD2484958500CDA29E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B239D3CE2484958500CDA29E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B239D3D12484958500CDA29E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B239D3D32484958700CDA29E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B239D3D62484958700CDA29E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B239D3D82484958700CDA29E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B239D3D92484958700CDA29E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B239D449248496C600CDA29E /* VoiceCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VoiceCell.h; sourceTree = "<group>"; };
+		B239D44A248496C600CDA29E /* VoiceCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoiceCell.m; sourceTree = "<group>"; };
+		B239D44D24849BB400CDA29E /* EMCDDeviceManager+Microphone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EMCDDeviceManager+Microphone.h"; sourceTree = "<group>"; };
+		B239D44E24849BB400CDA29E /* EMCDDeviceManager+Remind.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EMCDDeviceManager+Remind.m"; sourceTree = "<group>"; };
+		B239D44F24849BB400CDA29E /* EMCDDeviceManager+ProximitySensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EMCDDeviceManager+ProximitySensor.m"; sourceTree = "<group>"; };
+		B239D45024849BB400CDA29E /* EMCDDeviceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMCDDeviceManager.h; sourceTree = "<group>"; };
+		B239D45124849BB400CDA29E /* EMCDDeviceManagerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMCDDeviceManagerBase.h; sourceTree = "<group>"; };
+		B239D45224849BB400CDA29E /* DemoErrorCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoErrorCode.h; sourceTree = "<group>"; };
+		B239D45324849BB400CDA29E /* EMAudioPlayerUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMAudioPlayerUtil.h; sourceTree = "<group>"; };
+		B239D45424849BB400CDA29E /* EMAudioRecorderUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMAudioRecorderUtil.h; sourceTree = "<group>"; };
+		B239D45524849BB400CDA29E /* EMCDDeviceManager+Media.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EMCDDeviceManager+Media.m"; sourceTree = "<group>"; };
+		B239D45624849BB400CDA29E /* EMCDDeviceManager+ProximitySensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EMCDDeviceManager+ProximitySensor.h"; sourceTree = "<group>"; };
+		B239D45724849BB400CDA29E /* EMCDDeviceManager+Remind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EMCDDeviceManager+Remind.h"; sourceTree = "<group>"; };
+		B239D45824849BB400CDA29E /* EMCDDeviceManager+Microphone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EMCDDeviceManager+Microphone.m"; sourceTree = "<group>"; };
+		B239D45924849BB400CDA29E /* EMAudioRecorderUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMAudioRecorderUtil.m; sourceTree = "<group>"; };
+		B239D45A24849BB400CDA29E /* EMAudioPlayerUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMAudioPlayerUtil.m; sourceTree = "<group>"; };
+		B239D45B24849BB400CDA29E /* EMCDDeviceManagerBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMCDDeviceManagerBase.m; sourceTree = "<group>"; };
+		B239D45C24849BB400CDA29E /* EMCDDeviceManager+Media.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EMCDDeviceManager+Media.h"; sourceTree = "<group>"; };
+		B239D46424849BC400CDA29E /* EMCDDeviceManagerProximitySensorDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMCDDeviceManagerProximitySensorDelegate.h; sourceTree = "<group>"; };
+		B239D46524849BC400CDA29E /* EMCDDeviceManagerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMCDDeviceManagerDelegate.h; sourceTree = "<group>"; };
+		B239D46624849F3D00CDA29E /* voices.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = voices.bundle; sourceTree = "<group>"; };
+		B239D46A24850E7100CDA29E /* VoiceModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VoiceModel.h; sourceTree = "<group>"; };
+		B239D46B24850E7100CDA29E /* VoiceModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoiceModel.m; sourceTree = "<group>"; };
+		BAE83A15CC4F107C02CF4133 /* Pods_Qi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Qi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B239D3C12484958500CDA29E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EFEECC5012E0DAEEC55C87C /* Pods_Qi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EEBC092C5EE8C6049AAFF3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAE83A15CC4F107C02CF4133 /* Pods_Qi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		73F5D446FE6E378DF10C5F7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E710296C8007DED33935DEF /* Pods-Qi.debug.xcconfig */,
+				03C4E1664DFDCE5601C3750C /* Pods-Qi.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B239D3BB2484958500CDA29E = {
+			isa = PBXGroup;
+			children = (
+				B239D3C62484958500CDA29E /* 琦琦加油 */,
+				B239D3C52484958500CDA29E /* Products */,
+				73F5D446FE6E378DF10C5F7B /* Pods */,
+				5EEBC092C5EE8C6049AAFF3C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B239D3C52484958500CDA29E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B239D3C42484958500CDA29E /* SinnSingHoi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B239D3C62484958500CDA29E /* 琦琦加油 */ = {
+			isa = PBXGroup;
+			children = (
+				B239D44C24849BB400CDA29E /* internal */,
+				B239D3C72484958500CDA29E /* AppDelegate.h */,
+				B239D3C82484958500CDA29E /* AppDelegate.m */,
+				B239D3D32484958700CDA29E /* Assets.xcassets */,
+				B239D3D82484958700CDA29E /* Info.plist */,
+				B239D3D52484958700CDA29E /* LaunchScreen.storyboard */,
+				B239D3D92484958700CDA29E /* main.m */,
+				B239D3D02484958500CDA29E /* Main.storyboard */,
+				B239D3CA2484958500CDA29E /* SceneDelegate.h */,
+				B239D3CB2484958500CDA29E /* SceneDelegate.m */,
+				B239D3CD2484958500CDA29E /* ViewController.h */,
+				B239D3CE2484958500CDA29E /* ViewController.m */,
+				B239D449248496C600CDA29E /* VoiceCell.h */,
+				B239D44A248496C600CDA29E /* VoiceCell.m */,
+				B239D46A24850E7100CDA29E /* VoiceModel.h */,
+				B239D46B24850E7100CDA29E /* VoiceModel.m */,
+				B239D46624849F3D00CDA29E /* voices.bundle */,
+			);
+			path = "琦琦加油";
+			sourceTree = "<group>";
+		};
+		B239D44C24849BB400CDA29E /* internal */ = {
+			isa = PBXGroup;
+			children = (
+				B239D45224849BB400CDA29E /* DemoErrorCode.h */,
+				B239D45324849BB400CDA29E /* EMAudioPlayerUtil.h */,
+				B239D45A24849BB400CDA29E /* EMAudioPlayerUtil.m */,
+				B239D45424849BB400CDA29E /* EMAudioRecorderUtil.h */,
+				B239D45924849BB400CDA29E /* EMAudioRecorderUtil.m */,
+				B239D45024849BB400CDA29E /* EMCDDeviceManager.h */,
+				B239D45C24849BB400CDA29E /* EMCDDeviceManager+Media.h */,
+				B239D45524849BB400CDA29E /* EMCDDeviceManager+Media.m */,
+				B239D44D24849BB400CDA29E /* EMCDDeviceManager+Microphone.h */,
+				B239D45824849BB400CDA29E /* EMCDDeviceManager+Microphone.m */,
+				B239D45624849BB400CDA29E /* EMCDDeviceManager+ProximitySensor.h */,
+				B239D44F24849BB400CDA29E /* EMCDDeviceManager+ProximitySensor.m */,
+				B239D45724849BB400CDA29E /* EMCDDeviceManager+Remind.h */,
+				B239D44E24849BB400CDA29E /* EMCDDeviceManager+Remind.m */,
+				B239D45124849BB400CDA29E /* EMCDDeviceManagerBase.h */,
+				B239D45B24849BB400CDA29E /* EMCDDeviceManagerBase.m */,
+				B239D46524849BC400CDA29E /* EMCDDeviceManagerDelegate.h */,
+				B239D46424849BC400CDA29E /* EMCDDeviceManagerProximitySensorDelegate.h */,
+			);
+			path = internal;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B239D3C32484958500CDA29E /* Qi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B239D3DD2484958700CDA29E /* Build configuration list for PBXNativeTarget "Qi" */;
+			buildPhases = (
+				648BB9656A3F8C60E7EB2E90 /* [CP] Check Pods Manifest.lock */,
+				B239D3C02484958500CDA29E /* Sources */,
+				B239D3C12484958500CDA29E /* Frameworks */,
+				B239D3C22484958500CDA29E /* Resources */,
+				A2A3259B565E7011B3428EAD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Qi;
+			productName = "琦琦加油";
+			productReference = B239D3C42484958500CDA29E /* SinnSingHoi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B239D3BC2484958500CDA29E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Jianzhimao;
+				TargetAttributes = {
+					B239D3C32484958500CDA29E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = B239D3BF2484958500CDA29E /* Build configuration list for PBXProject "Qi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B239D3BB2484958500CDA29E;
+			productRefGroup = B239D3C52484958500CDA29E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B239D3C32484958500CDA29E /* Qi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B239D3C22484958500CDA29E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B239D3D72484958700CDA29E /* LaunchScreen.storyboard in Resources */,
+				B239D46724849F3D00CDA29E /* voices.bundle in Resources */,
+				B239D3D42484958700CDA29E /* Assets.xcassets in Resources */,
+				B239D3D22484958500CDA29E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		648BB9656A3F8C60E7EB2E90 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Qi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2A3259B565E7011B3428EAD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Qi/Pods-Qi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Qi/Pods-Qi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Qi/Pods-Qi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B239D3C02484958500CDA29E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B239D46124849BB400CDA29E /* EMAudioRecorderUtil.m in Sources */,
+				B239D45E24849BB400CDA29E /* EMCDDeviceManager+ProximitySensor.m in Sources */,
+				B239D44B248496C600CDA29E /* VoiceCell.m in Sources */,
+				B239D3CF2484958500CDA29E /* ViewController.m in Sources */,
+				B239D45F24849BB400CDA29E /* EMCDDeviceManager+Media.m in Sources */,
+				B239D3C92484958500CDA29E /* AppDelegate.m in Sources */,
+				B239D45D24849BB400CDA29E /* EMCDDeviceManager+Remind.m in Sources */,
+				B239D46024849BB400CDA29E /* EMCDDeviceManager+Microphone.m in Sources */,
+				B239D3DA2484958700CDA29E /* main.m in Sources */,
+				B239D46324849BB400CDA29E /* EMCDDeviceManagerBase.m in Sources */,
+				B239D3CC2484958500CDA29E /* SceneDelegate.m in Sources */,
+				B239D46C24850E7100CDA29E /* VoiceModel.m in Sources */,
+				B239D46224849BB400CDA29E /* EMAudioPlayerUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B239D3D02484958500CDA29E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B239D3D12484958500CDA29E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B239D3D52484958700CDA29E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B239D3D62484958700CDA29E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B239D3DB2484958700CDA29E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B239D3DC2484958700CDA29E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B239D3DE2484958700CDA29E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E710296C8007DED33935DEF /* Pods-Qi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = KP947672L8;
+				INFOPLIST_FILE = "琦琦加油/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sl.qi.voice;
+				PRODUCT_NAME = SinnSingHoi;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B239D3DF2484958700CDA29E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03C4E1664DFDCE5601C3750C /* Pods-Qi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = KP947672L8;
+				INFOPLIST_FILE = "琦琦加油/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sl.qi.voice;
+				PRODUCT_NAME = SinnSingHoi;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B239D3BF2484958500CDA29E /* Build configuration list for PBXProject "Qi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B239D3DB2484958700CDA29E /* Debug */,
+				B239D3DC2484958700CDA29E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B239D3DD2484958700CDA29E /* Build configuration list for PBXNativeTarget "Qi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B239D3DE2484958700CDA29E /* Debug */,
+				B239D3DF2484958700CDA29E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B239D3BC2484958500CDA29E /* Project object */;
+}

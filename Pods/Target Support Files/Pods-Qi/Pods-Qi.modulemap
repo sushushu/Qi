@@ -1,0 +1,6 @@
+framework module Pods_Qi {
+  umbrella header "Pods-Qi-umbrella.h"
+
+  export *
+  module * { export * }
+}
